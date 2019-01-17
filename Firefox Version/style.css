@@ -1,0 +1,596 @@
+/* 1D323F is the base color i am using for all as of now ok? */
+:root {
+  --main-color: #1D323F;
+  --secondary-font-color: #B3D9EA;
+  --primary-font-color: #E2E5E6;
+  --bg_image: url('https://i.imgur.com/2XaSfSv.jpg');
+}
+
+/* progress bar at the start */
+.progress {
+    color: var(--primary-font-color) !important;
+    background-color: var(--main-color) !important;
+}
+
+
+/* html[dir] .app-wrapper-web ._3dqpi {
+    background: transparent !important;
+} */
+
+/* unable to reach */
+html[dir] ._3gUiM._6vIwv {
+  background-image: var(--bg_image) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+html, body, #app{
+  background-image: var(--bg_image) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* main chat ka BG (if no image used change this) */
+._1GX8_{
+ background-image: var(--bg_image) !important;
+ background-position: center;
+
+}
+
+
+/*start first screen mobile in hand wali ka BG */
+html[dir] ._3qlW9,._3qlW9 {
+  background-image: var(--bg_image) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*start first screen mobile in hand wali ka text ka color */
+._1ClcF {
+    font-size: 14px;
+    color: var(--primary-font-color) !important;
+    line-height: 20px;
+}
+html[dir] ._1lrYJ {
+    text-align: unset;
+    color: var(--primary-font-color) !important;
+}
+.iHhHL{
+  color: var(--secondary-font-color) !important;
+}
+._3qlW9 a{
+  color: var(--secondary-font-color) !important;
+
+}
+
+/* mobile in hand image replace */
+._2Uo0Z{
+  background-image: url("https://i.imgur.com/SfSJzlL.png") !important;
+  background-position: center;
+  width: 355px;
+  height: 355px;
+}
+svg{
+  fill: var(--secondary-font-color) !important;
+}
+
+
+._3auIg {
+  /* meri profile pic and top left pe other options wali jagah */
+  background-color: var(--main-color)!important;
+}
+
+
+/* unread message notif */
+html[dir] .L89LI{
+  background-color: var(--main-color) !important;
+  color:var(--secondary-font-color) !important;
+
+}
+
+/* Startup stuff */
+#startup, #initial_startup {
+
+background-image: var(--bg_image) !important;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+
+/* ._3zJZ2{
+  background-color: transparent !important;
+} */
+/* main ka top bar jahan chat name hai*/
+html[dir] ._3AwwN{
+  background-color: var(--main-color)!important;
+}
+/* bottom mein type krni ki + emoji ki jagah */
+html[dir] ._3oju3{
+  background-color: var(--main-color)!important;
+}
+html[dir] ._2bXVy {
+    background-color: var(--main-color)!important;
+    border-color: #444 !important;
+    border-radius: 0px !important;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* left side wali chats */
+._2EXPL {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    height: 72px;
+    position: relative;
+    background-color: var(--main-color)!important;
+}
+/* left side wali chats BG */
+.swl8g {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    background-color: var(--main-color)!important;
+}
+/* left side wala search bar at top */
+
+html[dir] ._2MSJr {
+    background-color: var(--main-color)!important;
+    border-radius: 0px !important;
+    border: 0px solid #f6f6f6 !important;
+    margin-top: 7px;
+}
+
+/* left side wala search bar ka actual text box ka BG */
+
+.jN-F5 {
+    z-index: 1;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    line-height: 20px;
+    font-size: 15px;
+    min-height: 20px;
+    width: 100%;
+    outline: none;
+    font-weight: normal;
+    background-color: var(--main-color)!important;
+}
+/* left side search bar ki div ka bg */
+html[dir] .gQzdc {
+    transition-delay: 0.12s;
+    padding: 0;
+    background-color: var(--main-color)!important;
+}
+
+/* left side panel ka scroll bar, ek color se dono ban jayenge */
+html[dir] ._1NrpZ, ._1NrpZ {
+    background-color: var(--main-color)!important;
+}
+
+
+/* left side wali chats ka text(name of person or group) color */
+._25Ooe {
+    color: var(--secondary-font-color) !important;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    overflow: hidden;
+}
+/* left side wali chats ka text(lat time of message) color */
+._3Bxar {
+    color: var(--secondary-font-color) !important;
+    -webkit-flex: none;
+    flex: none;
+    font-size: 12px;
+    max-width: 100%;
+    overflow: hidden;
+}
+/* left side wali chats ka text(actual message) color */
+._1AwDx {
+    -webkit-align-items: center;
+    align-items: center;
+    color: var(--primary-font-color) !important;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 13px;
+    line-height: 19px;
+    min-height: 20px;
+}
+/* left side chats border fix */
+html[dir] ._3j7s9 {
+    border: 0px solid var(--secondary-font-color) !important;
+}
+html[dir] ._3j7s9::after {
+    border: 1px solid var(--secondary-font-color) !important;
+}
+html[dir] ._2EXPL._1f1zm:after {
+    border: 1px solid var(--secondary-font-color) !important;
+
+}
+html[dir] ._2EXPL:hover:after, html[dir] ._2EXPL._3df_h:after, html[dir] ._2EXPL._1f1zm:after {
+    border: 1px solid var(--secondary-font-color) !important;
+
+}
+
+
+/* top chat name ke text ka color */
+._2zCDG{
+    color: var(--secondary-font-color) !important;
+}
+/* top chat participants ke name ka text ka color */
+.Gd51Q._3sgkv{
+  color: var(--primary-font-color) !important;
+
+}
+
+
+/* group name menu ka BG color */
+._1CRb5, .AfVTG {
+    background-color: var(--main-color)!important;
+    color: white !important;
+}
+html[dir] .AfVTG{
+  background-color: var(--main-color)!important;
+  color: white !important;
+}
+
+/* group name menu button text color */
+
+._3LL06,._1xGbt {
+  /* set this color to secondary text color */
+    color: var(--primary-font-color) !important;
+}
+._1sYdX,._2e8Mu {
+  /* set this color to link color */
+    color: var(--secondary-font-color) !important;
+}
+/* group admin tag color */
+html[dir] ._2e8Mu {
+    padding: 1px 5px 0 5px;
+    border-radius: 0px !important;
+    border: 1px solid var(--secondary-font-color) !important;
+}
+/* group name menu ka scroll bar, ek se dono color change ez */
+._2sNbV {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex: 1;
+    flex: 1;
+    opacity: 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    z-index: 2;
+    background-color: var(--main-color)!important;
+}
+
+/* group menu top */
+html[dir] ._1CSx9, ._1CSx9 {
+    background-color: var(--main-color)!important;
+}
+
+/* actual message typing text colors */
+._3F6QL._2WovP ._2S1VP,.jN-F5{
+  color:var(--primary-font-color) !important;
+}
+
+/* group menu bottom button */
+._1CkkN {
+    background-color: var(--main-color)!important;
+}
+
+/* new chat wala menu ke buttons ka BG and text color */
+html[dir] ._1AKfk, html[dir] ._1FroB {
+    background-color: var(--main-color)!important;
+    color: var(--secondary-font-color) !important;
+}
+
+
+/* status area color */
+html[dir] .bZ3B9 {
+    background-color: var(--main-color)!important;
+}
+
+a{
+  color: var(--secondary-font-color) !important;
+}
+
+/* new messages count circle BG color */
+html[dir] .OUeyt {
+    background-color: var(--secondary-font-color) !important;
+    border-radius: 0px;
+    padding: 0px 5px 0px 5px;
+    text-align: center;
+}
+/* uploading files */
+html[dir] .wDFKR{
+  background-color: var(--main-color) !important;
+  color: var(--primary-font-color) !important;
+}
+html[dir] ._3hV1n{
+  background-color: var(--main-color) !important;
+  color: var(--primary-font-color) !important;
+}
+html[dir] ._2Mg6D .CzI8E{
+  border-bottom: 2px solid var(--secondary-font-color) !important;
+  color: var(--primary-font-color) !important;
+}
+.wDFKR ._1xGbt, ._2klhM ._1xGbt{
+  color: var(--primary-font-color) !important;
+}
+
+/* //files ka color */
+._12xX7{
+  color: var(--main-color) !important;
+}
+.PyPig{
+  color: var(--primary-font-color) !important;
+}
+.OUeyt {
+    color: var(--main-color) !important;
+}
+html[dir] ._2CORf ._12xX7{
+  background-color: var(--main-color) !important;
+  color: var(--primary-font-color) !important;
+}
+
+/* some minor fix, set this color as BG color of whole webpage */
+html[dir] ._3qlW9:after {
+    border-top: 6px solid var(--main-color) !important;
+}
+
+
+/* Phone not connected box */
+html[dir] .MwhOx, html[dir] ._1UvQg {
+    background-color: var(--secondary-font-color) !important;
+}
+/* Phone not connected box text color */
+.U0cj3,._21zbN{
+  color: color: var(--main-color)!important;
+}
+
+._2Qffr{
+  /* change to primary text color */
+  color: var(--primary-font-color) !important
+}
+._2548U {
+  /* was earlier green so change to secondary text color */
+    color: var(--secondary-font-color) !important;
+}
+html[dir] .PNlAR:hover {
+  /* change to button color */
+    background-color: var(--secondary-font-color) !important;
+    color: var(--main-color)!important;
+}
+html[dir] .PNlAR {
+    background-color: var(--secondary-font-color) !important;
+}
+._1qi0v {
+    color: var(--primary-font-color) !important;
+}
+
+/* quote wala box */
+html[dir] ._2EYZY{
+  background-color: var(--main-color)!important;
+}
+.quoted-mention{
+  color:var(--primary-font-color) !important;
+}
+html[dir] ._28ZV1 {
+  background-color: var(--main-color)!important;
+}
+html[dir] ._3oju3 {
+  background-color: var(--main-color)!important;
+  padding: 10px 19px;
+}
+html[dir] ._1k6Uw {
+  background-color: var(--main-color)!important;
+  box-shadow: 0px -5px 7px -5px rgba(0, 0, 0, 0.15);
+}
+html[dir] .Uukb4 {
+  background-color: var(--main-color)!important;
+  box-shadow: 0px -5px 7px -5px rgba(0, 0, 0, 0.15);
+}
+/* self quote wala box */
+html[dir] ._1sGGp._2nFG1 {
+    background-color: var(--main-color)!important;
+}
+._3QqKs,._16y6t,._3zVOv {
+    color: var(--primary-font-color) !important;
+}
+html[dir=ltr] ._2Cju4._2DNgV {
+  /* fixing gradient of self quoted message */
+    background: none !important;
+}
+
+
+/* actual text box colors */
+.copyable-text {
+    color: var(--primary-font-color) !important;
+}
+/* text bubble timestamp colors */
+._3EFt_ {
+    color: var(--secondary-font-color) !important;
+}
+/* some select gradient fix */
+html[dir=ltr] ._1i1U7.jZ4tp {
+    background: transparent !important;
+}
+
+/* text bubble options menu BG */
+html[dir] ._2uLFU, html[dir] ._1ArIP {
+    background-color: var(--main-color)!important;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+}
+/* text buble options menu ka text color */
+._2dGjP {
+    color: var(--primary-font-color) !important;
+}
+
+html[dir] .message-in {
+    background-color: var(--main-color)!important;
+}
+
+
+
+/* own message text bubble */
+html[dir] .message-out {
+    background-color: var(--main-color)!important;
+}
+
+/* is typing place holder which was green */
+.vdXUe {
+    color: var(--primary-font-color) !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    font-weight: normal;
+}
+
+/* quoted message click fix */
+._3_7SH _3DFk6 message-in tail{
+  background-color: var(--main-color)!important;
+}
+
+html[dir=ltr] .message-in .tail-container, html[dir=ltr] .message-in.tail-override-right .tail-container, html[dir=ltr] .message-out.tail-override-right .tail-container, html[dir=ltr] .message-in.tail-override-left .tail-container {
+    background-image: none !important;
+}
+/* some other fix (hover gradient on own send message bubble) */
+html[dir=ltr] ._1i1U7._2DNgV {
+    background: none !important;
+}
+/* some other fix (hover gradient on own send message bubble one more) */
+html[dir=ltr] ._2Cju4._2DNgV {
+    background: none !important;
+}
+/* fixing those small ugly message box containers */
+.tail-container{
+  display: none !important;
+}
+
+/* You changed the subjects etc... */
+.vW7d1{
+  color:var(--primary-font-color) !important;
+}
+._3rjxZ{
+  color:var(--primary-font-color) !important;
+}
+
+/* text menu ke hover ka fix */
+html[dir] ._28zBA._14ou2 {
+  background-color: var(--main-color) !important;
+}
+
+/* today, monday, etc etc in chat time wale ka color and border fix */
+html[dir] .Zq3Mc {
+    background-color: var(--secondary-font-color) !important;
+    border-radius: 0px !important;
+}
+
+/* personal settings text color green fix */
+_1sYdX {
+    color: var(--primary-font-color) !important;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: normal;
+}
+html[dir] ._1CnF3{
+  background-color:var(--main-color)!important;
+}
+html[dir] ._298R6 {
+    border-radius: 50%;
+    background-color: var(--main-color)!important;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* file upload box fixes */
+html[dir] ._3nuGo {
+    background-color: transparent !important;
+}
+/* do secondary color here */
+html[dir] .wDFKR {
+    color: var(--primary-font-color) !important;
+}
+/* do dark main color here */
+.wDFKR ._1xGbt, ._2klhM ._1xGbt {
+    color: var(--main-color)!important;
+}
+/* embedded link color */
+html[dir] ._2lwig._2nFG1 {
+    background-color: var(--main-color)!important;
+}
+
+/* emoji selection box :- */
+  /* emoji top bar */
+  html[dir] ._2ByZq {
+      background-color:  var(--main-color)!important;
+  }
+  /* main box */
+  html[dir] .Sbkt2 {
+      background-color: var(--main-color)!important;
+  }
+  /* search bar bg */
+  html[dir] ._2rR_l {
+      background-color: var(--main-color)!important;
+  }
+  /* search bar color */
+  html[dir] ._2vjPO {
+      border-radius: 0px !important;
+      background-color: var(--secondary-font-color) !important;
+  }
+  /* text color here */
+  ._1-N6t {
+      color: var(--primary-font-color) !important;
+  }
+
+/* spam box 2 do main BG */
+html[dir] .TYhk9 {
+    background-color: var(--main-color) !important;
+}
+
+/* spam box button color */
+html[dir] ._1sB6s {
+    background-color: var(--secondary-font-color) !important;
+}
+/* button text color */
+._1sB6s {
+    color: var(--main-color) !important;
+}
+/* spam text color */
+.Bixbo {
+    color: var(--primary-font-color) !important;
+}
+
+html[dir] ._3pkkz{
+  background-color: var(--main-color) !important;
+}
+
+html[dir] ._1Plpp{
+  background-color: var(--main-color) !important;
+  color: var(--primary-font-color) !important;
+}
+
+html[dir=ltr] .Zq3Mc{
+  color: var(--main-color) !important;
+  background: var(--primary-font-color) !important;
+  text-decoration: None !important;
+}

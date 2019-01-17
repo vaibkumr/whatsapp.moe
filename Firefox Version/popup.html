@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script src="jquery.min.js"></script>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    /* The container */
+            body{
+              width: 250px;
+              background-color:#F7F7F7;
+            }
+
+            h3,h2,h1{
+              color:#2196F3;
+            }
+
+            p{
+              color:black;
+            }
+            a{
+              color:#2196F3;
+            }
+
+            .button {
+              background-color: #2196F3;
+              border: none;
+              color: white;
+              padding: 5px 5px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+
+              margin: 4px 2px;
+              cursor: pointer;
+              }
+            .container {
+                display: block;
+                position: relative;
+                padding-left: 25px;
+                margin-bottom: 12px;
+                cursor: pointer;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+
+            /* Hide the browser's default radio button */
+            .container input {
+                position: absolute;
+                opacity: 0;
+                cursor: pointer;
+            }
+
+            /* Create a custom radio button */
+            .checkmark {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 15px;
+                width: 15px;
+                background-color: #eee;
+                border-radius: 50%;
+            }
+
+            /* On mouse-over, add a grey background color */
+            .container:hover input ~ .checkmark {
+                background-color: #ccc;
+            }
+
+            /* When the radio button is checked, add a blue background */
+            .container input:checked ~ .checkmark {
+                background-color: #2196F3;
+            }
+
+            /* Create the indicator (the dot/circle - hidden when not checked) */
+            .checkmark:after {
+                content: "";
+                position: absolute;
+                display: none;
+            }
+
+            /* Show the indicator (dot/circle) when checked */
+            .container input:checked ~ .checkmark:after {
+                display: block;
+            }
+
+            /* Style the indicator (dot/circle) */
+            .container .checkmark:after {
+             	top: 4px;
+            	left: 4px;
+            	width: 7px;
+            	height: 7px;
+            	border-radius: 50%;
+            	background: white;
+            }
+
+            .custom_colors{
+              padding-left: 5px;
+            }
+            #c1,#c2,#c3{
+              margin: 3px;
+              border: 0px;
+
+            }
+            hr{
+              display: block;
+              border-style: solid;
+              border-width: 1px;
+              border-color: #2196F3;
+            }
+
+            #custom_colors{
+              display: none;
+            }
+
+    </style>
+  </head>
+  <body>
+    <h2>Whatsapp.moe</h2><hr>
+    <h3>Image URL</h3>
+    <p>Enter background image URL <br> (Upload image on imgur, make sure the url ends with .jpg or .png) </p>
+    <input type="text" id="wallpaper">
+    <button type="button" class="button" id="w_new">Submit</button><br><hr>
+    <h3>Colors</h3>
+    <label class="container">Extract from image
+      <input id="t1" type="radio" checked="checked" name="radio">
+      <span class="checkmark"></span>
+    </label>
+    <label class="container">Dark
+      <input id="t2" type="radio" name="radio">
+      <span class="checkmark"></span>
+    </label>
+    <label class="container">Light
+      <input id="t3" type="radio" name="radio">
+      <span class="checkmark"></span>
+    </label>
+    <label class="container">Custom
+      <input id="t4" type="radio" name="radio">
+      <span class="checkmark"></span>
+    </label>
+    <div id="custom_colors">
+        <input id="c1" type="color" name="favcolor" value="#1a000d"> Main<br>
+        <input id="c2" type="color" name="favcolor" value="#e60073"> Important text<br>
+        <input id="c3" type="color" name="favcolor" value="#ffe6f2"> Normal text<br>
+        <input class="button" type="submit" id="color_picked">
+    </div>
+    <p style="color:#2196F3">* Reload the page to apply the changes</p>
+    <p>Crafted by Time Traveller | <a href="https://github.com/TimeTraveller-San/">Github</a></p>
+
+
+
+
+    <script type="text/javascript" src="popup.js"></script>
+  </body>
+</html>
