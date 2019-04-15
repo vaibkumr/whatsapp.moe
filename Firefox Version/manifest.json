@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Whatsapp.moe",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "description": "Whatsapp.moe' extension for firefox",
   "icons": { "16" : "icon.png",
                       "48" : "icon.png",

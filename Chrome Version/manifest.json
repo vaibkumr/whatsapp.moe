@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Whatsmoe",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "whatsapp web theming extension for google chrome",
   "icons": { "16" : "icon.png",
                       "48" : "icon.png",

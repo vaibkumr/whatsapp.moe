@@ -594,3 +594,35 @@ html[dir=ltr] .Zq3Mc{
   background: var(--primary-font-color) !important;
   text-decoration: None !important;
 }
+
+._2y17h{
+  background-color: var(--main-color) !important;
+}
+
+.flipthis-wrapper > ._1wjpf{
+  color: var(--secondary-font-color) !important;
+}
+
+.flipthis-wrapper ._1wjpf{
+  color: var(--secondary-font-color) !important;
+}
+
+._3XrHh ._1wjpf{
+  color: var(--secondary-font-color) !important;
+}
+
+html[dir] .rstyJ, html[dir] ._3SX5f{
+  background-color: var(--main-color) !important;
+}
+
+[data-asset-chat-background]{
+  background-image: none !important;
+}
+
+html[dir] ._1FKgS::after{
+  background-color: #0000 !important
+}
+
+html[dir] ._1FKgS{
+  background-color: #0000 !important;
+}
